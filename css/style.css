@@ -1,0 +1,664 @@
+/*==== Default Css ====*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@300;400;500;600;700&display=swap");
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container::before,
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.col-50 {
+  width: 50%;
+  float: left;
+  padding: 14px 25px;
+}
+
+.col-33 {
+  width: 33.33%;
+  float: left;
+  padding: 0 25px;
+}
+.col-30 {
+  width: 30%;
+  float: left;
+  padding: 0 25px;
+}
+.col-70 {
+  width: 70%;
+  float: right;
+  padding: 0 72px;
+}
+.col-100 {
+  width: 100%;
+  float: left;
+  padding: 0 25px;
+}
+.container-full {
+  width: 100%;
+}
+.col-25 {
+  width: 25%;
+  float: left;
+  padding: 0 25px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+.section-padding {
+  padding-top: 100px;
+  padding-bottom: 35px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul {
+  list-style: none;
+}
+/*
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+*/
+/*==== Site Css ====*/
+/*==== 01. top-header css ====*/
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #d6d6d6;
+}
+.tour .section-title {
+  padding: 0;
+}
+
+.topheader {
+  background: #1d1d1d;
+  height: 46px;
+  line-height: 45px;
+}
+.section-title {
+  padding: 72px 0px;
+}
+s .number {
+  color: #b6b6b6;
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.social {
+  display: inline-block;
+  color: #b6b6b6;
+  list-style: none;
+  margin-left: 30px;
+}
+.social li {
+  display: inline-block;
+  font-size: 14px;
+}
+.social li a {
+  color: #b6b6b6;
+  margin: 0 3px;
+  transition: 0.3s;
+}
+.login-registar a {
+  color: #d8d8d8;
+  font-size: 14px;
+  float: right;
+  margin-left: 26px;
+  transition: 0.3s;
+}
+.login-registar a i {
+  margin-right: 5px;
+}
+.number:hover,
+.social a:hover,
+.login-registar a:hover {
+  color: #fe1949;
+}
+/*==== 02. header css ====*/
+header {
+  background: #fff;
+  height: 77px;
+  padding: 20px 0;
+}
+.logo img {
+  width: 200px;
+}
+ul.Main-Menu {
+  float: right;
+  margin-top: -35px;
+  padding: 10px 0;
+}
+.Main-Menu li {
+  display: inline-block;
+}
+.Main-Menu li a {
+  color: #252525;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+}
+ul.Main-Menu li a {
+  color: #252525;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0 0 0 20px;
+  transition: 0.3s;
+  border-bottom: 3px solid transparent;
+}
+.menu-icon {
+  margin-left: 15px !important;
+}
+.Main-Menu li a:hover {
+  border-bottom: 3px solid #d62d20;
+}
+.active {
+  border-bottom: 3px solid #d62d20 !important;
+}
+.menu-icon:hover {
+  border-bottom: 3px solid transparent !important;
+  color: #d62d20;
+}
+/*==== 03. home css ====*/
+.home {
+  background: url("../img/01.jpg");
+  padding: 250px 0;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+.home h1 {
+  font-size: 92px;
+  font-weight: 700;
+  margin-top: -172px;
+}
+
+.home p {
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 30px;
+  padding: 32px 0;
+}
+.btn {
+  font-size: 17px;
+  font-weight: 600px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-transform: capitalize;
+  padding: 20px 40px;
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.3s;
+  margin-right: 30px;
+}
+.btn i {
+  visibility: hidden;
+  transition: 0.3s;
+}
+.btn:hover i {
+  display: inline-block;
+  visibility: visible;
+}
+.btn-active {
+  background: #fe1949;
+  border-color: #fe1949;
+}
+/*==== 04. courses css ====*/
+ul.col-100.courses.menu .BTM {
+  display: inline-block;
+  font-size: 17px;
+  color: #252525;
+  margin-right: 20px;
+  padding-bottom: 40px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: 600;
+  font-size: 17px;
+}
+.BTM i {
+  visibility: hidden;
+  transition: 0.5s;
+  transition: 0.7s;
+}
+.BTM:hover i {
+  visibility: visible;
+  color: #fd1949;
+}
+.courses-home {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+.courses-home img {
+  width: 100%;
+  height: 100%;
+  transition: 0.7s;
+}
+.crs-ctg {
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  color: #fff;
+  background: #fd1949;
+  padding: 15px 20px;
+  font-size: 14px;
+  text-transform: capitalize;
+  text-decoration: none;
+
+  transition: 0.3s;
+}
+.crs-ctg:hover {
+  background: #252525;
+}
+.courses-box:hover img {
+  transform: scale(1.1);
+}
+.Courses-details h3 a {
+  font-size: 20px;
+  color: #252525;
+  transition: 0.3s;
+  margin: 20px 0 10px 0;
+  display: inline-block;
+}
+.Courses-details h3 a:hover {
+  color: #fe1949;
+}
+.instructor {
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #252525;
+  padding-bottom: 30px;
+  display: inline-block;
+  position: relative;
+}
+.Courses-details p {
+  font-size: 15px;
+  line-height: 24px;
+  color: #444;
+}
+.courses-footer {
+  font-size: 13px;
+
+  padding-top: 30px;
+}
+a.students {
+  text-transform: capitalize;
+  color: #252525;
+}
+a.rating {
+  color: #252525;
+  text-transform: capitalize;
+}
+
+a.Course-Fee {
+  text-transform: capitalize;
+  color: #252525;
+}
+i.fa-solid.fa-user {
+  padding-right: 4px;
+}
+
+a.rating {
+  margin-left: 20px;
+}
+
+a.Course-Fee {
+  float: right;
+  font-size: 20px;
+  color: #fd1949;
+  font-weight: 500;
+}
+i.fa-solid.fa-asterisk {
+  padding-right: 4px;
+}
+
+.instructor::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+
+  height: 3px;
+  width: 40px;
+  background: red;
+  transition: 0.3s;
+}
+.courses-box:hover .instructor::before {
+  width: 60px;
+}
+/*==== 05. expart css ====*/
+
+.expart-box {
+  width: 100%;
+  height: 490px;
+  background: #ddd;
+}
+.expart-box-01 {
+  background: #fe1949;
+}
+.expart-box-02 {
+  background: url(../img/expart/01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.expart-box-03 {
+  background: url(../img/expart/02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.expart-box-04 {
+  background: url(../img/expart/03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.expart .col-50 {
+  padding: 0;
+}
+.expart-box {
+  padding: 100px;
+  color: #fff;
+  padding: 183px 60px;
+}
+.expart-box h3 {
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+.expart-box a {
+  font-size: 17px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+}
+.expart-box-04,
+.expart-box-04 a {
+  color: #252525;
+}
+/*==== 06. teacher css ====*/
+
+.section-title {
+  padding-bottom: 72px;
+}
+.section-title h2 {
+  color: #252525;
+  font-size: 45px;
+  padding-bottom: 40px;
+  position: relative;
+}
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  top: 70px;
+  height: 3px;
+  bottom: 0;
+  width: 40px;
+
+  background: red;
+  /*content: "";
+  position: absolute; 
+  height: 3px;
+  width: 40px;
+  left: 0;
+  bottom: 25px;
+  background: EF1A49;*/
+}
+.section-title p {
+  color: #333;
+  font-size: 19px;
+  line-height: 29px;
+}
+.teacher {
+  bottom: 30px;
+}
+.teacher-single-right a h3 {
+  transition: 0.3s;
+  text-transform: capitalize;
+
+  padding: 0 0 10px;
+}
+.teacher-single-right a {
+  color: #252525;
+  font-size: 20px;
+}
+.teacher-single-right {
+  padding: 30px;
+}
+
+.teacher-single-right a h3:hover {
+  color: #fe1949;
+}
+.teacher-single {
+  display: flex;
+  margin-bottom: 30px;
+}
+.teacher-single-left {
+  width: 140px;
+  height: 140px;
+}
+/*.teacher-single-right ul:hover {
+  color: #fe1949;
+}*/
+.teacher-single-right ul li {
+  display: inline-block;
+}
+.teacher-single-right ul li a {
+  font-size: 14px;
+  margin-right: 4px;
+}
+.teacher-single-right ul li a i:hover {
+  color: #fe1949;
+}
+.teacher-single-right ul li a i {
+  transition: 0.3s;
+}
+.teacher-single-right span {
+  color: #252525;
+  font-size: 15px;
+}
+.teacher.section-padding {
+  padding-bottom: 90px;
+}
+/*==== 07. review css ====*/
+.review {
+  background: #ef1a49;
+}
+.review-single {
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+.review-left {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.review-right {
+  color: #fff;
+  padding-left: 30px;
+}
+.review-right p {
+  font-size: 45px;
+  line-height: 55px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.review-right span {
+  font-size: 19px;
+  padding-top: 5px;
+  display: inline-block;
+}
+.review-single::after {
+  content: "\f10e";
+  position: absolute;
+  right: 0;
+  top: -160px;
+  z-index: -1;
+  font-size: 400px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  opacity: 0.1;
+}
+/*==== 08. tour css ====*/
+.tour-list {
+  list-style: none;
+}
+.tour-list i {
+  color: #fe1949;
+
+  padding: 10px 20px;
+}
+.section-title h2 {
+  font-size: 45px;
+  line-height: 54px;
+}
+.tour-list li {
+  margin-left: -18px;
+}
+.section-title {
+  padding-bottom: 35px;
+}
+.col-50 {
+  width: 50%;
+  float: left;
+  padding: 0px 0px;
+}
+/*==== 09. form css ====*/
+.form {
+  background: url("../img/form/02.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+}
+.form::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  opacity: 0.2;
+}
+.form-left {
+  background: #fe1949;
+  color: #fff;
+  padding: 129px 133px;
+  margin-left: 53px;
+}
+.form-left h3 {
+  font-size: 45px;
+}
+.form-right {
+  background: #fff;
+  padding: 131px 81px;
+  margin-right: 158px;
+  position: relative;
+}
+.form-righ i {
+  position: absolute;
+  font-size: 30px;
+  left: 0;
+  top: 50%;
+}
+.form-right input {
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+  margin-top: 15px;
+}
+.form-right input[type="submit"]:hover {
+  background: #ef1a49;
+
+  color: #fff;
+}
+.form-right input[type="submit"] {
+  width: 150px;
+  padding: 20px 0;
+  background: #252525;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 50px;
+  transition: 0.3s;
+}
+.form-right h4 {
+  font-size: 28px;
+  color: #252525;
+}
+.form .col-50 {
+  padding: 0;
+}
+
+i.fa-solid.fa-caret-left {
+  padding-top: 52px;
+  float: left;
+  margin-left: -94px;
+  font-size: 46px;
+  color: #ffff;
+}
+/*==== 10. footer css ====*/
+.footer {
+  background: #252525;
+  color: #fff;
+}
+.footer-single a {
+  color: #fff;
+  font-size: 15px;
+  transition: 0.3s;
+  margin-bottom: 10px;
+  text-transform: capitalizes;
+  transition: 0.3s;
+}
+.footer-single a:hover {
+  color: #fe1949;
+}
+.footer-single p {
+  padding-bottom: 30px;
+}
+.footer-single h5 {
+  font-size: 20px;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+  line-height: 24px;
+}
+.footer-course a {
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+.footer-single h6 {
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
